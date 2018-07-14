@@ -103,5 +103,8 @@ cask "telegram"
 cask "teamviewer"
 cask "thunderbird"
 cask "go2shell"
+cash "docker"
 
 mas "LanScan", id: 472226235
+mas "DaisyDisk", id: 411643860
+mas "Carcassonne" id: 901869346
