@@ -1,6 +1,6 @@
 [user]
-	email = account@bennokress.de
-	name = BK | Mobile Apps
+	email = abarth@it-economics.de
+	name = Alexander Barth
 
 # deutsch: projekt <befehl>
 [alias]
@@ -46,22 +46,3 @@
 [core]
 	editor = sublime -n -w   # use sublime for interactive rebasing etc.
 	whitespace = cr-at-eol   # ignore whitespace at the end of lines in git diff
-
-[mergetool]
-	prompt = false
-
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustexitcode = true
-
-[merge]
-	tool = Kaleidoscope
-
-[difftool]
-	prompt = false
-
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-
-[diff]
-	tool = Kaleidoscope

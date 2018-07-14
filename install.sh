@@ -25,10 +25,6 @@ printf "%b" "${ALERTCOLOR}Wait for the Xcode installation to finish?\n"
 printf "%b" "${CLEARCOLOR}Afterwards please press return (or ctrl + c to cancel this setup).\n"
 read input
 
-# 5 - Setup private stuff (from private repo) - ADJUST TO YOUR OWN NEEDS OR DELETE
-git clone git@github.com:bennokress/private_dotfiles.git "$HOME/.private_dotfiles"
-$HOME/.private_dotfiles/install.sh
-
 ##################################################################################################################################
 #                                                            Homebrew                                                            #
 ##################################################################################################################################
