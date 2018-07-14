@@ -31,11 +31,6 @@ updateDotfiles() {
     git stash push -m "Stashed by CLI Update Function"
     git fetch --all
     git checkout -B master
-    # Private Dotfiles
-    cd ~/.private_dotfiles
-    git stash push -m "Stashed by CLI Update Function"
-    git fetch --all
-    git checkout -B master
     # Go back to previous working directory
     cd $ORIGINAL_DIRECTORY
 }
