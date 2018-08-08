@@ -23,6 +23,7 @@ brew "bash-completion"
 brew "coreutils"
 brew "findutils"
 brew "git"
+brew "git-crypt"
 brew "gnupg"
 brew "gnupg2"
 brew "grep"
@@ -73,7 +74,7 @@ cask "quicklook-csv"
 # Fonts
 cask "font-fira-code"
 
-# Install Mac App Store 
+# Install Mac App Store
 mas "Bear", id: 1091189122
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -81,7 +82,6 @@ mas "Keynote", id: 409183694
 
 ## Additional
 
-cask "tunnelblick"
 cask "flycut"
 cask "owncloud"
 cask "atom"
@@ -100,9 +100,7 @@ cask "slack"
 cask "sourcetree"
 cask "steam"
 cask "telegram"
-cask "teamviewer"
 cask "thunderbird"
-cask "go2shell"
 cask "docker"
 
 mas "LanScan", id: 472226235
