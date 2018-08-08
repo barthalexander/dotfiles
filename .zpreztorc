@@ -12,6 +12,7 @@ zstyle ':prezto:load' pmodule \
   'editor' \
   'history' \
   'directory' \
+  'docker' \
   'spectrum' \
   'utility' \
   'completion' \
@@ -39,7 +40,8 @@ zstyle ':prezto:module:editor' dot-expansion 'yes'
 # -------------------------------------------------------------------------------- #
 
 # Set the prompt theme to load. (Default theme name: 'sorin')
-zstyle ':prezto:module:prompt' theme 'spaceship'
+# zstyle ':prezto:module:prompt' theme 'spaceship'
+zstyle ':prezto:module:prompt' theme 'sorin'
 
 # Set the working directory prompt display length.
 # By default, it is set to 'short'. Set it to 'long' (without '~' expansion)

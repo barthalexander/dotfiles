@@ -109,7 +109,7 @@ ln -s "$HOME/.dotfiles/.gitconfig" "$HOME/.gitconfig"
 ln -s "$HOME/.dotfiles/.mackup.cfg" "$HOME/.mackup.cfg"
 
 # 2 - Restore Mackup
-mackup restore --force
+# mackup restore --force
 
 ##################################################################################################################################
 

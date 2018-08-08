@@ -15,6 +15,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias sshServer="ssh admin@kress.myqnapcloud.com -p 2992 -i ~/.ssh/id_server_rsa"
 alias zshconfig="open ~/.zshrc"
 
+# DOCKER Shortcuts
+alias dps="docker ps"
+
 # Functions
 cl() { cd "$@"; ls; }
 mcd () { mkdir -p "$1" && cd "$1"; }
